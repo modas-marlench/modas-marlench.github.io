@@ -40,12 +40,12 @@ $(document).ready(function() {
         $("select#solicitud-select").append("<option></option>");
         //Si el KIT ES 1 le corresponde SACO y si es 2 CASACA
         if ($('input:radio[name=opt-genero]:checked').val() == "FEMENINO") {
-            $("select#solicitud-select").append("<option>ADELANDO DE UNIFORMES 2023</option>");
+            $("select#solicitud-select").append("<option>ADELANTO DE UNIFORMES 2023</option>");
             $("select#solicitud-select").append("<option>GESTANTES</option>");
             $("select#solicitud-select").append("<option>NUEVOS INGRESOS</option>");
             $("select#solicitud-select").append("<option>NUEVOS INGRESOS ONBOARDING</option>");
         } else {
-            $("select#solicitud-select").append("<option>ADELANDO DE UNIFORMES 2023</option>");
+            $("select#solicitud-select").append("<option>ADELANTO DE UNIFORMES 2023</option>");
             $("select#solicitud-select").append("<option>NUEVOS INGRESOS</option>");
             $("select#solicitud-select").append("<option>NUEVOS INGRESOS ONBOARDING</option>");
         }
