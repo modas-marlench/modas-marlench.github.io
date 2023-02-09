@@ -14,7 +14,7 @@ let reglas = {
             "cod": {
                 required: true,
                 minlength: 7,
-                maxlength: 7
+                maxlength: 8
             },
             "nombres": {
                 required: true                    
@@ -313,8 +313,11 @@ $("#wizard").steps({
     transitionEffectSpeed: 500,
     saveState: true,
     onStepChanging: function(event, currentIndex, newIndex) {
-        return formValidate(currentIndex);
-        //return true
+        if (newIndex > currentIndex){
+            return formValidate(currentIndex);
+        } else{
+            return true
+        }
     },
     onFinishing: function(event, currentIndex) {
         return formValidate(currentIndex);
