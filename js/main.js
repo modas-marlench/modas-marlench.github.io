@@ -214,7 +214,7 @@ function ActualizarCampos(){
         url = "https://drive.google.com/file/d/1BaLFu1sewbpKZ_eh8kPocwtTyLNVJR-6/view?usp=sharing"
     } else if (kit == "KIT 1" && zona == "ZONAS REGULARES" && gen == "FEMENINO") {
         // Mostrar solo SACO, ELECCION Y BLUSA
-        $("div.casaca").show();             // 1 saco
+        $("div.saco").show();             // 1 saco
         $("div.eleccion").show();        // Elección
         $("div.blusa").show();              // 6 blusas
         if (soli == "GESTANTES") {
