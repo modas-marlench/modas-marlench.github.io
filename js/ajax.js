@@ -14,7 +14,7 @@ $(document).ready(function() {
     // AJAX para traer oficinas
     $.ajax({
         type: "GET",
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1mS3E0THHG2J85CeN6tm0WsPT5ZEkjsvykcw9byhCljw/values/OFICINAS2!B2:D?key=AIzaSyDksVE4q2AIAA4-IGrPgM007Wnd_K17bGk",
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1mS3E0THHG2J85CeN6tm0WsPT5ZEkjsvykcw9byhCljw/values/OFICINAS!B2:D?key=AIzaSyDksVE4q2AIAA4-IGrPgM007Wnd_K17bGk",
         dataType: 'json',
         success: function(data) {
             data.values.forEach(function(dato) {
