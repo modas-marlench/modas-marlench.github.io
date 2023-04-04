@@ -208,7 +208,7 @@ function ActualizarCampos(){
         }
     } else if (kit == "KIT 1" && zona == "ZONAS REGULARES" && gen == "MASCULINO") {
         // Mostrar solo SACO, PANTALON Y CAMISAS
-        $("div.casaca").show();         // 1 saco
+        $("div.saco").show();         // 1 saco
         $("div.pantalon").show();       // Pantalón
         $("div.camisa").show();          // 6 camisas
         url = "https://drive.google.com/file/d/1BaLFu1sewbpKZ_eh8kPocwtTyLNVJR-6/view?usp=sharing"
