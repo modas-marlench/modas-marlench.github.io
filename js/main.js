@@ -175,7 +175,7 @@ function ActualizarCampos(){
         $("div.casaca").show();         // 1 casaca
         $("div.saco").show();           // 1 saco
         $("div.pantalon").show();       // 2 Pantalon
-        $("div.camisas").show();        // 6 camisas
+        $("div.camisa").show();        // 6 camisas
         url = "https://drive.google.com/file/d/1QuhziiV-9H-Lr4ryGcaQI7UBV1ppq1I1/view?usp=sharing"
     } else if (kit == "KIT 1" && zona == "ZONAS FRÍAS" && gen == "FEMENINO") {
         // Mostrar solo CASACA, SACO, ELECCION Y BLUSA        
